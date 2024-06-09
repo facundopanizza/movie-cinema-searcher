@@ -1,0 +1,7 @@
+services:
+  movie-scrapper:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    env_file:
+      - .env
